@@ -1,6 +1,7 @@
 from basic_plot import BasicPlot
-from square import Square
 
 if __name__ == '__main__':
+    qr_size = int(input("enter the size of the QR : "))
+    size_factor = int(input("enter the size factor for the recog. pattern : "))
     ploter = BasicPlot()
-    ploter.plot(21)
+    ploter.plot(qr_size, size_factor)
